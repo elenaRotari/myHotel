@@ -7,7 +7,8 @@
     },
     "checkIn": "2022-04-10",
     "checkOut": "2022-04-11",
-    "checkedIn": true
+
+    "checkedIn": false
   },
   {
     "roomNo": 201,
@@ -17,7 +18,7 @@
     },
     "checkIn": "2021-12-04",
     "checkOut": "2021-11-11",
-    "checkedIn": true
+    "checkedIn": false
   },
   {
     "roomNo": 4,
@@ -27,7 +28,8 @@
     },
     "checkIn": "2022-04-02",
     "checkOut": "2021-10-19",
-    "checkedIn": true
+
+    "checkedIn": false
   },
   {
     "roomNo": 280,
@@ -36,7 +38,8 @@
       "lastName": "Massingham"
     },
     "checkIn": "2021-11-08",
-    "checkOut": "2022-09-07"
+    "checkOut": "2022-09-07",
+    "checkedIn": false
   },
   {
     "roomNo": 239,
@@ -45,7 +48,8 @@
       "lastName": "Harness"
     },
     "checkIn": "2022-10-01",
-    "checkOut": "2022-04-04"
+    "checkOut": "2022-04-04",
+    "checkedIn": false
   },
   {
     "roomNo": 89,
@@ -54,7 +58,8 @@
       "lastName": "Bland"
     },
     "checkIn": "2022-01-25",
-    "checkOut": "2022-08-14"
+    "checkOut": "2022-08-14",
+    "checkedIn": false
   },
   {
     "roomNo": 117,
@@ -63,7 +68,8 @@
       "lastName": "Ohlsen"
     },
     "checkIn": "2022-09-21",
-    "checkOut": "2022-03-24"
+    "checkOut": "2022-03-24",
+    "checkedIn": false
   },
   {
     "roomNo": 188,
@@ -72,7 +78,8 @@
       "lastName": "Kynman"
     },
     "checkIn": "2022-01-05",
-    "checkOut": "2022-10-30"
+    "checkOut": "2022-10-30",
+    "checkedIn": false
   },
   {
     "roomNo": 46,
@@ -81,7 +88,8 @@
       "lastName": "Soff"
     },
     "checkIn": "2022-04-25",
-    "checkOut": "2021-12-13"
+    "checkOut": "2021-12-13",
+    "checkedIn": false
   },
   {
     "roomNo": 271,
@@ -90,7 +98,8 @@
       "lastName": "Howchin"
     },
     "checkIn": "2021-10-22",
-    "checkOut": "2022-06-04"
+    "checkOut": "2022-06-04",
+    "checkedIn": false
   },
   {
     "roomNo": 272,
@@ -99,7 +108,8 @@
       "lastName": "Keohane"
     },
     "checkIn": "2022-09-10",
-    "checkOut": "2022-09-15"
+    "checkOut": "2022-09-15",
+    "checkedIn": false
   },
   {
     "roomNo": 168,
@@ -108,7 +118,8 @@
       "lastName": "Cruce"
     },
     "checkIn": "2022-07-10",
-    "checkOut": "2021-12-11"
+    "checkOut": "2021-12-11",
+    "checkedIn": false
   },
   {
     "roomNo": 285,
@@ -117,7 +128,8 @@
       "lastName": "Bickardike"
     },
     "checkIn": "2022-05-08",
-    "checkOut": "2021-11-06"
+    "checkOut": "2021-11-06",
+    "checkedIn": false
   },
   {
     "roomNo": 214,
@@ -126,7 +138,8 @@
       "lastName": "Haggish"
     },
     "checkIn": "2022-02-23",
-    "checkOut": "2022-05-16"
+    "checkOut": "2022-05-16",
+    "checkedIn": false
   },
   {
     "roomNo": 14,
@@ -135,7 +148,8 @@
       "lastName": "Tedman"
     },
     "checkIn": "2022-04-14",
-    "checkOut": "2022-04-09"
+    "checkOut": "2022-04-09",
+    "checkedIn": false
   },
   {
     "roomNo": 31,
@@ -144,7 +158,8 @@
       "lastName": "Kunkel"
     },
     "checkIn": "2022-05-11",
-    "checkOut": "2021-10-11"
+    "checkOut": "2021-10-11",
+    "checkedIn": false
   },
   {
     "roomNo": 220,
@@ -153,7 +168,8 @@
       "lastName": "Doget"
     },
     "checkIn": "2022-10-02",
-    "checkOut": "2022-10-03"
+    "checkOut": "2022-10-03",
+    "checkedIn": false
   },
   {
     "roomNo": 196,
@@ -162,7 +178,8 @@
       "lastName": "Scoggans"
     },
     "checkIn": "2022-07-14",
-    "checkOut": "2022-07-15"
+    "checkOut": "2022-07-15",
+    "checkedIn": false
   },
   {
     "roomNo": 119,
@@ -171,7 +188,8 @@
       "lastName": "Tindle"
     },
     "checkIn": "2021-11-02",
-    "checkOut": "2022-02-09"
+    "checkOut": "2022-02-09",
+    "checkedIn": false
   },
   {
     "roomNo": 5,
@@ -180,7 +198,8 @@
       "lastName": "McAneny"
     },
     "checkIn": "2022-03-05",
-    "checkOut": "2022-04-15"
+    "checkOut": "2022-04-15",
+    "checkedIn": false
   },
   {
     "roomNo": 232,
@@ -189,7 +208,8 @@
       "lastName": "Chattell"
     },
     "checkIn": "2022-06-14",
-    "checkOut": "2022-02-01"
+    "checkOut": "2022-02-01",
+    "checkedIn": false
   },
   {
     "roomNo": 273,
@@ -198,7 +218,8 @@
       "lastName": "di Rocca"
     },
     "checkIn": "2022-01-14",
-    "checkOut": "2021-10-10"
+    "checkOut": "2021-10-10",
+    "checkedIn": false
   },
   {
     "roomNo": 161,
@@ -207,7 +228,8 @@
       "lastName": "McPaike"
     },
     "checkIn": "2022-01-04",
-    "checkOut": "2022-02-03"
+    "checkOut": "2022-02-03",
+    "checkedIn": false
   },
   {
     "roomNo": 289,
@@ -216,7 +238,8 @@
       "lastName": "Rizzotto"
     },
     "checkIn": "2022-09-25",
-    "checkOut": "2022-02-19"
+    "checkOut": "2022-02-19",
+    "checkedIn": false
   },
   {
     "roomNo": 135,
@@ -225,7 +248,8 @@
       "lastName": "Simony"
     },
     "checkIn": "2022-03-29",
-    "checkOut": "2022-06-12"
+    "checkOut": "2022-06-12",
+    "checkedIn": false
   },
   {
     "roomNo": 222,
@@ -234,7 +258,8 @@
       "lastName": "Frankes"
     },
     "checkIn": "2022-06-18",
-    "checkOut": "2022-04-11"
+    "checkOut": "2022-04-11",
+    "checkedIn": false
   },
   {
     "roomNo": 208,
@@ -243,7 +268,8 @@
       "lastName": "Hubbocks"
     },
     "checkIn": "2022-08-10",
-    "checkOut": "2022-03-09"
+    "checkOut": "2022-03-09",
+    "checkedIn": false
   },
   {
     "roomNo": 175,
@@ -252,7 +278,8 @@
       "lastName": "Hastewell"
     },
     "checkIn": "2022-09-08",
-    "checkOut": "2022-10-22"
+    "checkOut": "2022-10-22",
+    "checkedIn": false
   },
   {
     "roomNo": 52,
@@ -261,7 +288,8 @@
       "lastName": "Levane"
     },
     "checkIn": "2022-08-25",
-    "checkOut": "2022-02-13"
+    "checkOut": "2022-02-13",
+    "checkedIn": false
   },
   {
     "roomNo": 87,
@@ -270,7 +298,8 @@
       "lastName": "D'Alessandro"
     },
     "checkIn": "2021-11-12",
-    "checkOut": "2021-11-21"
+    "checkOut": "2021-11-21",
+    "checkedIn": false
   },
   {
     "roomNo": 142,
@@ -279,7 +308,8 @@
       "lastName": "Beinke"
     },
     "checkIn": "2022-09-15",
-    "checkOut": "2022-03-18"
+    "checkOut": "2022-03-18",
+    "checkedIn": false
   },
   {
     "roomNo": 228,
@@ -288,7 +318,8 @@
       "lastName": "Camilletti"
     },
     "checkIn": "2022-08-01",
-    "checkOut": "2022-03-08"
+    "checkOut": "2022-03-08",
+    "checkedIn": false
   },
   {
     "roomNo": 71,
@@ -297,7 +328,8 @@
       "lastName": "Treherne"
     },
     "checkIn": "2022-03-12",
-    "checkOut": "2021-11-13"
+    "checkOut": "2021-11-13",
+    "checkedIn": false
   },
   {
     "roomNo": 156,
@@ -306,7 +338,8 @@
       "lastName": "Gabbatiss"
     },
     "checkIn": "2022-08-08",
-    "checkOut": "2022-10-11"
+    "checkOut": "2022-10-11",
+    "checkedIn": false
   },
   {
     "roomNo": 56,
@@ -315,7 +348,8 @@
       "lastName": "Bromby"
     },
     "checkIn": "2022-01-18",
-    "checkOut": "2022-06-20"
+    "checkOut": "2022-06-20",
+    "checkedIn": false
   },
   {
     "roomNo": 281,
@@ -324,7 +358,8 @@
       "lastName": "Kiendl"
     },
     "checkIn": "2021-10-02",
-    "checkOut": "2022-01-26"
+    "checkOut": "2022-01-26",
+    "checkedIn": false
   },
   {
     "roomNo": 76,
@@ -333,7 +368,8 @@
       "lastName": "Gritten"
     },
     "checkIn": "2022-01-23",
-    "checkOut": "2022-01-11"
+    "checkOut": "2022-01-11",
+    "checkedIn": false
   },
   {
     "roomNo": 75,
@@ -342,7 +378,8 @@
       "lastName": "Bastian"
     },
     "checkIn": "2022-10-07",
-    "checkOut": "2021-11-13"
+    "checkOut": "2021-11-13",
+    "checkedIn": false
   },
   {
     "roomNo": 189,
@@ -351,7 +388,8 @@
       "lastName": "Craigmile"
     },
     "checkIn": "2022-01-24",
-    "checkOut": "2022-06-19"
+    "checkOut": "2022-06-19",
+    "checkedIn": false
   },
   {
     "roomNo": 205,
@@ -360,7 +398,8 @@
       "lastName": "Steven"
     },
     "checkIn": "2022-03-31",
-    "checkOut": "2022-01-15"
+    "checkOut": "2022-01-15",
+    "checkedIn": false
   },
   {
     "roomNo": 245,
@@ -369,7 +408,8 @@
       "lastName": "Grinval"
     },
     "checkIn": "2022-09-12",
-    "checkOut": "2022-06-24"
+    "checkOut": "2022-06-24",
+    "checkedIn": false
   },
   {
     "roomNo": 224,
@@ -378,7 +418,8 @@
       "lastName": "Tattershall"
     },
     "checkIn": "2022-04-07",
-    "checkOut": "2022-04-17"
+    "checkOut": "2022-04-17",
+    "checkedIn": false
   },
   {
     "roomNo": 282,
@@ -387,7 +428,8 @@
       "lastName": "Bresson"
     },
     "checkIn": "2022-03-21",
-    "checkOut": "2022-02-06"
+    "checkOut": "2022-02-06",
+    "checkedIn": false
   },
   {
     "roomNo": 265,
@@ -396,7 +438,8 @@
       "lastName": "Kissick"
     },
     "checkIn": "2022-04-26",
-    "checkOut": "2022-01-08"
+    "checkOut": "2022-01-08",
+    "checkedIn": false
   },
   {
     "roomNo": 232,
@@ -405,7 +448,8 @@
       "lastName": "Dewsbury"
     },
     "checkIn": "2022-06-16",
-    "checkOut": "2022-06-06"
+    "checkOut": "2022-06-06",
+    "checkedIn": false
   },
   {
     "roomNo": 147,
@@ -414,7 +458,8 @@
       "lastName": "Milkeham"
     },
     "checkIn": "2021-12-19",
-    "checkOut": "2021-10-20"
+    "checkOut": "2021-10-20",
+    "checkedIn": false
   },
   {
     "roomNo": 7,
@@ -423,7 +468,8 @@
       "lastName": "Camelli"
     },
     "checkIn": "2021-11-29",
-    "checkOut": "2021-12-30"
+    "checkOut": "2021-12-30",
+    "checkedIn": false
   },
   {
     "roomNo": 166,
@@ -432,7 +478,8 @@
       "lastName": "Oddey"
     },
     "checkIn": "2021-12-05",
-    "checkOut": "2022-10-05"
+    "checkOut": "2022-10-05",
+    "checkedIn": false
   },
   {
     "roomNo": 220,
@@ -441,7 +488,8 @@
       "lastName": "Rimell"
     },
     "checkIn": "2022-03-18",
-    "checkOut": "2022-01-16"
+    "checkOut": "2022-01-16",
+    "checkedIn": false
   },
   {
     "roomNo": 223,
@@ -450,7 +498,8 @@
       "lastName": "Martin"
     },
     "checkIn": "2022-08-31",
-    "checkOut": "2022-02-22"
+    "checkOut": "2022-02-22",
+    "checkedIn": false
   },
   {
     "roomNo": 27,
@@ -459,7 +508,8 @@
       "lastName": "Itskovitz"
     },
     "checkIn": "2022-02-01",
-    "checkOut": "2021-11-09"
+    "checkOut": "2021-11-09",
+    "checkedIn": false
   },
   {
     "roomNo": 6,
@@ -468,7 +518,8 @@
       "lastName": "Kreuzer"
     },
     "checkIn": "2021-11-02",
-    "checkOut": "2022-09-25"
+    "checkOut": "2022-09-25",
+    "checkedIn": false
   },
   {
     "roomNo": 135,
@@ -477,7 +528,8 @@
       "lastName": "Kinvig"
     },
     "checkIn": "2022-02-19",
-    "checkOut": "2022-10-22"
+    "checkOut": "2022-10-22",
+    "checkedIn": false
   },
   {
     "roomNo": 255,
@@ -486,7 +538,8 @@
       "lastName": "Pear"
     },
     "checkIn": "2022-10-03",
-    "checkOut": "2021-10-04"
+    "checkOut": "2021-10-04",
+    "checkedIn": false
   },
   {
     "roomNo": 10,
@@ -495,7 +548,8 @@
       "lastName": "Turmell"
     },
     "checkIn": "2022-03-30",
-    "checkOut": "2022-07-13"
+    "checkOut": "2022-07-13",
+    "checkedIn": false
   },
   {
     "roomNo": 262,
@@ -504,7 +558,8 @@
       "lastName": "Gherardesci"
     },
     "checkIn": "2022-04-24",
-    "checkOut": "2021-12-17"
+    "checkOut": "2021-12-17",
+    "checkedIn": false
   },
   {
     "roomNo": 40,
@@ -513,7 +568,8 @@
       "lastName": "Kubat"
     },
     "checkIn": "2021-10-03",
-    "checkOut": "2022-10-04"
+    "checkOut": "2022-10-04",
+    "checkedIn": false
   },
   {
     "roomNo": 219,
@@ -522,7 +578,8 @@
       "lastName": "Blankau"
     },
     "checkIn": "2022-06-27",
-    "checkOut": "2022-07-09"
+    "checkOut": "2022-07-09",
+    "checkedIn": false
   },
   {
     "roomNo": 264,
@@ -531,7 +588,8 @@
       "lastName": "Jobbins"
     },
     "checkIn": "2022-07-04",
-    "checkOut": "2022-04-26"
+    "checkOut": "2022-04-26",
+    "checkedIn": false
   },
   {
     "roomNo": 61,
@@ -540,6 +598,7 @@
       "lastName": "Bradwell"
     },
     "checkIn": "2021-12-23",
-    "checkOut": "2021-10-23"
+    "checkOut": "2021-10-23",
+    "checkedIn": false
   }
 ]

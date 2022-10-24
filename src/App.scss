@@ -4,19 +4,24 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgba(0, 0, 0, 0.054);
+  width: 100vw;
 }
 .rooms {
   background-color: rgba(51, 51, 51, 0.496);
-  display: grid;
-  grid-template: repeat();
-  gap: 1.5rem;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+
+  gap: 1.5rem;
 
   .roomsItem {
+    text-align: center;
     background-color: rgb(25, 24, 24);
     padding: 1.5rem;
     color: aliceblue;
+  }
+  .roomsItem:hover {
+    opacity: 80%;
   }
   .firstLastName {
     color: goldenrod;
@@ -27,5 +32,22 @@ body {
   h2 {
     font-size: 2rem;
     color: bisque;
+  }
+  .yes,
+  .no {
+    padding: 0.4rem 1.5rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: none;
+    margin: 0.8rem;
+    background-color: rgba(37, 165, 37, 0.414);
+    font-weight: 900;
+    color: black;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  .no {
+    background-color: red;
   }
 }

@@ -1,29 +1,37 @@
-import { useEffect, useState } from "react";
-export default function Room({ room }) {
-  const [checkIn, setCheckIn] = useState(false);
+import { useEffect } from "react";
+export default function Room({ room, setCheckIn, checkedIn }) {
   useEffect(() => {
-    checkIn && alert(`Zimmer NR. ${room.roomNo} ist belegt`);
-  }, [checkIn]);
+    localStorage.setItem("rooms", JSON.stringify(checkedIn));
+  }, [checkedIn]);
   const reverse = (str) => {
     return str.split("-").reverse().join(".");
   };
 
   return (
     <div className="roomsItem">
-      <h2>{room.roomNo}</h2>
+      <h2>Room: {room.roomNo}</h2>
       <ul className="firstLastName">
-        <li>{room.guest.firstName}</li>
-        <li>{room.guest.lastName}</li>
+        <li>First Name: {room.guest.firstName}</li>
+        <li>Last Name: {room.guest.lastName}</li>
       </ul>
       <p>{reverse(room.checkIn)}</p>
       <p>{reverse(room.checkOut)}</p>
+      <p className={room.checkedIn ? "no" : "yes"}>
+        {room.checkedIn ? "There are our Customer" : "Waiting of Customer"}
+      </p>
       <button
+        className={room.checkedIn ? "no" : "yes"}
         onClick={() => {
-          console.log(checkIn);
-          setCheckIn(!checkIn);
+          setCheckIn(
+            checkedIn.map((el) =>
+              el.roomNo === room.roomNo
+                ? { ...el, checkedIn: !el.checkedIn }
+                : el
+            )
+          );
         }}
       >
-        {checkIn ? "CheckOut" : "CheckIn"}
+        {room.checkedIn ? "CheckOut" : "CheckIn"}
       </button>
     </div>
   );
