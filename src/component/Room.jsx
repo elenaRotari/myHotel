@@ -11,6 +11,7 @@ export default function Room({ room }) {
       </ul>
       <p>{reverse(room.checkIn)}</p>
       <p>{reverse(room.checkOut)}</p>
+      <button onClick={checkIn && checkOut}>Click me </button>
     </div>
   );
 }
