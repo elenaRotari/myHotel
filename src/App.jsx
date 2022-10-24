@@ -15,10 +15,10 @@ function App() {
       <div className="rooms">
         {checkedIn
           .sort((a, b) => a.roomNo - b.roomNo)
-          .map((roomItem, index) => {
+          .map((roomItem) => {
             return (
               <Room
-                key={index}
+                key={roomItem.roomNo}
                 room={roomItem}
                 setCheckIn={setCheckedIn}
                 checkedIn={checkedIn}
