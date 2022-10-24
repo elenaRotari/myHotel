@@ -52,6 +52,7 @@ h1 {
     font-weight: 900;
     color: black;
     width: max-content;
+    letter-spacing: 0.2rem;
   }
   button:hover {
     cursor: pointer;
@@ -62,8 +63,9 @@ h1 {
   }
   .yes {
     box-shadow: 0 0 10px rgba(165, 212, 165, 0.823);
+    color: aliceblue;
   }
   p {
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.6rem;
   }
 }

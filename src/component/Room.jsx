@@ -17,7 +17,7 @@ export default function Room({ room, setCheckIn, checkedIn }) {
       <p>{reverse(room.checkIn)}</p>
       <p>{reverse(room.checkOut)}</p>
       <p className={room.checkedIn ? "no" : "yes"}>
-        {room.checkedIn ? "There are our Customer" : "Waiting of Customer"}
+        {room.checkedIn ? "The Room is not available" : "The room is available"}
       </p>
       <button
         className={room.checkedIn ? "no" : "yes"}
