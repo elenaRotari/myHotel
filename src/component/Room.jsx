@@ -1,7 +1,13 @@
+import { useEffect, useState } from "react";
 export default function Room({ room }) {
+  const [checkIn, setCheckIn] = useState(false);
+  useEffect(() => {
+    checkIn && alert(`Zimmer NR. ${room.roomNo} ist belegt`);
+  }, [checkIn]);
   const reverse = (str) => {
     return str.split("-").reverse().join(".");
   };
+
   return (
     <div className="roomsItem">
       <h2>{room.roomNo}</h2>
@@ -11,7 +17,14 @@ export default function Room({ room }) {
       </ul>
       <p>{reverse(room.checkIn)}</p>
       <p>{reverse(room.checkOut)}</p>
-      <button onClick={checkIn && checkOut}>Click me </button>
+      <button
+        onClick={() => {
+          console.log(checkIn);
+          setCheckIn(!checkIn);
+        }}
+      >
+        {checkIn ? "CheckOut" : "CheckIn"}
+      </button>
     </div>
   );
 }

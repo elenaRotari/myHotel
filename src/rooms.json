@@ -6,7 +6,8 @@
       "lastName": "Dragge"
     },
     "checkIn": "2022-04-10",
-    "checkOut": "2022-04-11"
+    "checkOut": "2022-04-11",
+    "checkedIn": true
   },
   {
     "roomNo": 201,
@@ -15,7 +16,8 @@
       "lastName": "Nussgen"
     },
     "checkIn": "2021-12-04",
-    "checkOut": "2021-11-11"
+    "checkOut": "2021-11-11",
+    "checkedIn": true
   },
   {
     "roomNo": 4,
@@ -24,7 +26,8 @@
       "lastName": "Spight"
     },
     "checkIn": "2022-04-02",
-    "checkOut": "2021-10-19"
+    "checkOut": "2021-10-19",
+    "checkedIn": true
   },
   {
     "roomNo": 280,
