@@ -1,31 +1,19 @@
 import "./App.scss";
-import rooms from "./rooms.json";
-import Room from "./component/Room";
-import { useState } from "react";
-function App() {
-  const [checkedIn, setCheckedIn] = useState(
-    localStorage.getItem("rooms") !== null
-      ? JSON.parse(localStorage.getItem("rooms"))
-      : rooms
-  );
+import Reservation from "./component/Reservation";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import RoomList from "./component/RoomList";
+import Login from "./component/Login";
 
+function App() {
   return (
     <div className="App">
-      <h1 className="header">Unsere {checkedIn.length} Rooms</h1>
-      <div className="rooms">
-        {checkedIn
-          .sort((a, b) => a.roomNo - b.roomNo)
-          .map((roomItem) => {
-            return (
-              <Room
-                key={roomItem.roomNo}
-                room={roomItem}
-                setCheckIn={setCheckedIn}
-                checkedIn={checkedIn}
-              />
-            );
-          })}
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="reservation" element={<Reservation />} />
+          <Route path="rooms" element={<RoomList />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

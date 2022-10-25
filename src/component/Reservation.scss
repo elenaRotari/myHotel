@@ -1,0 +1,41 @@
+.signIn {
+  width: 50%;
+  margin: 15rem auto 2rem;
+  h1 {
+    margin: 2rem;
+  }
+  .checkPassword {
+    text-align: center;
+    color: red;
+    font-size: 1.7rem;
+    font-weight: 900;
+    padding: 1rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    input {
+      outline: none;
+      font-size: 1.3rem;
+      border-radius: 5px;
+      border: none;
+      padding: 0.7rem;
+      opacity: 75%;
+    }
+    button {
+      max-width: max-content;
+      padding: 0.5rem 3rem;
+      color: red;
+      font-weight: 800;
+      font-size: 1.8rem;
+      border-radius: 5rem;
+      border: none;
+      background-color: rgba(37, 165, 37, 0.414);
+      margin: 2rem auto;
+      box-shadow: inset 5px 5px 13px white, 0 0 13px white;
+    }
+  }
+}
